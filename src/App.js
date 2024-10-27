@@ -15,11 +15,6 @@ function App() {
       </header>
 
       <main>
-        <p>
-          Haihaus Downloads offers direct download links for software, it is not
-          affialated with Microsoft.
-        </p>
-
         <table>
           <thead>
             <tr>
@@ -42,6 +37,10 @@ function App() {
 
       <footer>
         Created with ♥ by <a href="https://www.hai.haus">Daniel Hall</a>.
+        <p>
+          Haihaus Downloads offers direct download links for software, it is not
+          affialated with Microsoft.
+        </p>
       </footer>
     </>
   );

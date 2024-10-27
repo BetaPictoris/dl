@@ -1,9 +1,65 @@
+/* Theme */
+:root {
+  --bg: #ffffff;
+
+  --s0: #f5f5f7;
+  --s1: #dfdfe7;
+
+  --fg0: #000000;
+  --fg1: #16161a;
+
+  --a0: #1076a5;
+  --a1: #90400e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16161a;
+
+    --s0: #27272e;
+    --s1: #494956;
+
+    --fg0: #ffffff;
+    --fg1: #f5f5f7;
+
+    --a0: #58bfee;
+    --a1: #ee7c58;
+  }
+}
+
+/* Content */
+body {
+  background-color: var(--bg);
+  color: var(--fg0);
+}
+
+/* Something? */
+header > a {
+  color: var(--fg0);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a {
+  color: var(--a0);
+}
+
+main {
+  min-height: 96vh;
+  width: 100%;
+  max-width: 640px;
+
+  margin: 16px auto;
+}
+
 /* Header */
 header {
   display: flex;
   justify-content: space-between;
 
   padding: 8px;
+
+  background-color: var(--s0);
 }
 
 header > nav {
@@ -11,19 +67,54 @@ header > nav {
   gap: 8px;
 }
 
-/* Content */
-main {
+/* Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: var(--s0);
 }
 
-table,
-td {
-  border: 1px solid;
+thead {
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 1px solid var(--s1);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: var(--s1);
 }
 
 table,
 button,
 select {
   width: 100%;
+  color: var(--fg0);
+}
+
+button,
+select {
+  background-color: #00000000;
+  border: none;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+button {
+  text-decoration: underline;
+  color: var(--a0);
+}
+
+/* Buttons */
+td:has(> button) {
+  padding: 0;
+  margin: 0;
 }
 
 /* Footer */
