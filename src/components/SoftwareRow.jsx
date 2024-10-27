@@ -22,25 +22,38 @@ export default function SoftwareRow({ data }) {
       <td>{data.manufactuerName}</td>
       <td>{data.softwareName}</td>
       <td>
-        <select id="edition" onChange={changeEdition}>
-          {data.editions.map((edition) => (
-            <option value={data.editions.indexOf(edition)}>
-              {edition.name}
-            </option>
-          ))}
-        </select>
+        {data.editions.length == 1 ? (
+          data.editions[edition].name
+        ) : (
+          <select id="edition" onChange={changeEdition}>
+            {data.editions.map((edition) => (
+              <option value={data.editions.indexOf(edition)}>
+                {edition.name}
+              </option>
+            ))}
+          </select>
+        )}
       </td>
       <td>
-        <select id="platform" onChange={changePlatform}>
-          {data.editions[edition].platforms.map((platform) => (
-            <option value={data.editions[edition].platforms.indexOf(platform)}>
-              {platform.name}
-            </option>
-          ))}
-        </select>
+        {data.editions[edition].platforms.length == 1 ? (
+          data.editions[edition].platforms[platform].name
+        ) : (
+          <select id="platform" onChange={changePlatform}>
+            {data.editions[edition].platforms.map((platform) => (
+              <option
+                value={data.editions[edition].platforms.indexOf(platform)}
+              >
+                {platform.name}
+              </option>
+            ))}
+          </select>
+        )}
       </td>
       <td>
         <button onClick={doDownload}>Submit</button>
+      </td>
+      <td>
+        <i>{data.note}</i>
       </td>
     </tr>
   );

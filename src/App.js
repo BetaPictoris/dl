@@ -28,6 +28,7 @@ function App() {
               <td>Edition</td>
               <td>Platform</td>
               <td>Download</td>
+              <td>Notes</td>
             </tr>
           </thead>
 

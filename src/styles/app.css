@@ -20,6 +20,12 @@ td {
   border: 1px solid;
 }
 
+table,
+button,
+select {
+  width: 100%;
+}
+
 /* Footer */
 footer {
   text-align: center;
