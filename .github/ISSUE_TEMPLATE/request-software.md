@@ -1,5 +1,5 @@
 ---
-name: Request Software
+name: Request software
 about: Request software be added to Haihaus Downloads.
 title: Add [Manufacturer] [Software]
 labels: request
