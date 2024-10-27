@@ -1,0 +1,27 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 8px;
+}
+
+header > nav {
+  display: flex;
+  gap: 8px;
+}
+
+/* Content */
+main {
+}
+
+table,
+td {
+  border: 1px solid;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 8px;
+}
