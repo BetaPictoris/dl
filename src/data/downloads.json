@@ -70,6 +70,8 @@
   {
     "manufacturerName": "Microsoft",
     "softwareName": "Office 2019",
+    "note": "macOS download for Home & Business is Home & Business Pro.",
+
     "editions": [
       {
         "name": "Home & Student",
@@ -81,6 +83,10 @@
           {
             "name": "Windows (x86)",
             "download": "https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeStudent2019Retail&language=en-US&platform=x86"
+          },
+          {
+            "name": "macOS",
+            "download": "https://go.microsoft.com/fwlink/?linkid=799520"
           }
         ]
       },
@@ -94,6 +100,10 @@
           {
             "name": "Windows (x86)",
             "download": "https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeBusiness2019Retail&language=en-US&platform=x86"
+          },
+          {
+            "name": "macOS",
+            "download": "https://go.microsoft.com/fwlink/p/?linkid=2009112"
           }
         ]
       }
