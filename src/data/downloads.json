@@ -1,11 +1,51 @@
 [
     {
         "manufactuerName": "Microsoft",
-        "softwareName": "Word",
+        "softwareName": "Word 2021",
         "editions": [
             {"name": "Retail", "platforms": [
                 {"name": "x86", "download": "https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-US/Word2021Retail.img&platform=X86"},
                 {"name": "x64", "download": "https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-US/Word2021Retail.img&platform=X64"}
+            ]}
+        ]
+    },
+    {
+        "manufactuerName": "Microsoft",
+        "softwareName": "Word 2019",
+        "editions": [
+            {"name": "Retail", "platforms": [
+                {"name": "x86", "download": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/Word2019Retail.img&platform=X86"},
+                {"name": "x64", "download": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-us/Word2019Retail.img&platform=X64"}
+            ]}
+        ]
+    },
+    {
+        "manufactuerName": "Microsoft",
+        "softwareName": "Word 2013",
+        "editions": [
+            {"name": "Retail", "platforms": [
+                {"name": "x86", "download": "https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/en-US/WordRetail.img&platform=X86"},
+                {"name": "x64", "download": "https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/en-US/WordRetail.img&platform=X64"}
+            ]}
+        ]
+    },
+    {
+        "manufactuerName": "Microsoft",
+        "softwareName": "Excel 2021",
+        "editions": [
+            {"name": "Retail", "platforms": [
+                {"name": "x86", "download": "https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-US/Excel2021Retail.img&platform=X86"},
+                {"name": "x64", "download": "https://officecdn.microsoft.com/db/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/media/en-US/Excel2021Retail.img&platform=X64"}
+            ]}
+        ]
+    },
+    {
+        "manufactuerName": "Microsoft",
+        "softwareName": "Excel 2013",
+        "editions": [
+            {"name": "Retail", "platforms": [
+                {"name": "x86", "download": "https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/en-US/ExcelRetail.img&platform=X86"},
+                {"name": "x64", "download": "https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/en-US/ExcelRetail.img&platform=X64"}
             ]}
         ]
     }
