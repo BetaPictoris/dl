@@ -13,6 +13,10 @@ export default function SoftwareRow({ data }) {
     setPlatform(document.getElementById("platform").value);
   }
 
+  function doDownload(payload) {
+    window.open(data.editions[edition].platforms[platform].download);
+  }
+
   return (
     <tr>
       <td>{data.manufactuerName}</td>
@@ -36,7 +40,7 @@ export default function SoftwareRow({ data }) {
         </select>
       </td>
       <td>
-        <button>Submit</button>
+        <button onClick={doDownload}>Submit</button>
       </td>
     </tr>
   );
