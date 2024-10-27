@@ -38,7 +38,11 @@ function App() {
       <footer>
         <p>
           &copy; 2024 Daniel Hall &ndash;{" "}
-          <a href="https://github.com/BetaPictoris/dl" target="_blank">
+          <a
+            href="https://github.com/BetaPictoris/dl"
+            target="_blank"
+            rel="noreferrer"
+          >
             MIT License
           </a>
         </p>
