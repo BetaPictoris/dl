@@ -36,10 +36,15 @@ function App() {
       </main>
 
       <footer>
-        Created with ♥ by <a href="https://www.hai.haus">Daniel Hall</a>.
         <p>
-          Haihaus Downloads offers direct download links for software, it is not
-          affialated with Microsoft.
+          &copy; 2024 Daniel Hall &ndash;{" "}
+          <a href="https://github.com/BetaPictoris/dl" target="_blank">
+            MIT License
+          </a>
+        </p>
+        <p>
+          Haihaus Downloads does not host any content and is not affialated with
+          Microsoft.
         </p>
       </footer>
     </>

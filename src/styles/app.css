@@ -122,3 +122,9 @@ footer {
   text-align: center;
   padding: 8px;
 }
+
+footer > p {
+  width: 100%;
+  max-width: 820px;
+  margin: 0 auto;
+}
