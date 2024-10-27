@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <header>
-        <a href="#">Haihaus Downloads</a>
+        <a href="/">Haihaus Downloads</a>
 
         <nav>
           <a href="#report">Report</a>
