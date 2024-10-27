@@ -10,7 +10,13 @@ function App() {
 
         <nav>
           <a href="#report">Report</a>
-          <a href="#request">Request</a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/betapictoris/dl/issues/new?assignees=&labels=request&projects=&template=request-software.md&title=Add+%5BManufacturer%5D+%5BSoftware%5D"
+          >
+            Request
+          </a>
         </nav>
       </header>
 
