@@ -47,7 +47,7 @@ a {
 main {
   min-height: 96vh;
   width: 100%;
-  max-width: 860px;
+  max-width: 1024px;
 
   margin: 16px auto;
 }
