@@ -22,7 +22,7 @@ export default function SoftwareRow({ data }) {
       <td>{data.manufactuerName}</td>
       <td>{data.softwareName}</td>
       <td>
-        {data.editions.length == 1 ? (
+        {data.editions.length === 1 ? (
           data.editions[edition].name
         ) : (
           <select id="edition" onChange={changeEdition}>
@@ -35,7 +35,7 @@ export default function SoftwareRow({ data }) {
         )}
       </td>
       <td>
-        {data.editions[edition].platforms.length == 1 ? (
+        {data.editions[edition].platforms.length === 1 ? (
           data.editions[edition].platforms[platform].name
         ) : (
           <select id="platform" onChange={changePlatform}>
