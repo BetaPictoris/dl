@@ -18,7 +18,7 @@ function App() {
         <table>
           <thead>
             <tr>
-              <td>Manufactuer</td>
+              <td>Manufacturer</td>
               <td>Software</td>
               <td>Edition</td>
               <td>Platform</td>

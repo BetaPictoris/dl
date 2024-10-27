@@ -1,6 +1,6 @@
 [
   {
-    "manufactuerName": "Microsoft",
+    "manufacturerName": "Microsoft",
     "softwareName": "Access 2021",
     "editions": [
       {
@@ -15,7 +15,7 @@
     ]
   },
   {
-    "manufactuerName": "Microsoft",
+    "manufacturerName": "Microsoft",
     "softwareName": "Access 2019",
     "editions": [
       {
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "manufactuerName": "Microsoft",
+    "manufacturerName": "Microsoft",
     "softwareName": "Outlook 2019",
     "editions": [
       {
@@ -49,7 +49,7 @@
     ]
   },
   {
-    "manufactuerName": "Microsoft",
+    "manufacturerName": "Microsoft",
     "softwareName": "Office 2016",
     "editions": [
       {
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "manufactuerName": "Microsoft",
+    "manufacturerName": "Microsoft",
     "softwareName": "Office 2019",
     "editions": [
       {
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "manufactuerName": "Microsoft",
+    "manufacturerName": "Microsoft",
     "softwareName": "Word 2013",
     "editions": [
       {

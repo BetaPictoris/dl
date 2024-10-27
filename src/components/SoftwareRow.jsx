@@ -19,7 +19,7 @@ export default function SoftwareRow({ data }) {
 
   return (
     <tr>
-      <td>{data.manufactuerName}</td>
+      <td>{data.manufacturerName}</td>
       <td>{data.softwareName}</td>
       <td>
         {data.editions.length === 1 ? (
