@@ -1,30 +1,117 @@
 [
-    {
-        "manufactuerName": "Microsoft",
-        "softwareName": "Access 2021",
-        "editions": [
-            {"name": "Retail", "platforms": [
-                {"name": "Windows", "download": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/Access2021Retail.img"}
-            ]}
+  {
+    "manufactuerName": "Microsoft",
+    "softwareName": "Access 2021",
+    "editions": [
+      {
+        "name": "Retail",
+        "platforms": [
+          {
+            "name": "Windows",
+            "download": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/Access2021Retail.img"
+          }
         ]
-    },
-    {
-        "manufactuerName": "Microsoft",
-        "softwareName": "Access 2019",
-        "editions": [
-            {"name": "Retail", "platforms": [
-                {"name": "Windows", "download": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/Access2019Retail.img"}
-            ]}
+      }
+    ]
+  },
+  {
+    "manufactuerName": "Microsoft",
+    "softwareName": "Access 2019",
+    "editions": [
+      {
+        "name": "Retail",
+        "platforms": [
+          {
+            "name": "Windows",
+            "download": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/Access2019Retail.img"
+          }
         ]
-    },
-    {
-        "manufactuerName": "Microsoft",
-        "softwareName": "Outlook 2019",
-        "editions": [
-            {"name": "Retail", "platforms": [
-                {"name": "Windows", "download": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/Outlook2019Retail.img"},
-                {"name": "macOS", "download": "https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.44.20121301_Installer.pkg"}
-            ]}
+      }
+    ]
+  },
+  {
+    "manufactuerName": "Microsoft",
+    "softwareName": "Outlook 2019",
+    "editions": [
+      {
+        "name": "Retail",
+        "platforms": [
+          {
+            "name": "Windows",
+            "download": "https://officecdn.microsoft.com/db/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/en-US/Outlook2019Retail.img"
+          },
+          {
+            "name": "macOS",
+            "download": "https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_Outlook_16.44.20121301_Installer.pkg"
+          }
         ]
-    }
+      }
+    ]
+  },
+  {
+    "manufactuerName": "Microsoft",
+    "softwareName": "Office 2016",
+    "editions": [
+      {
+        "name": "Home & Student",
+        "platforms": [
+          {
+            "name": "Windows (x64)",
+            "download": "https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=HomeBusinessRetail&platform=X64&language=en-US&TaxRegion=pr&correlationId=6c9987bc-6b60-435e-bd02-55bbd2f99308&token=faaf32f6-6d4e-437a-8829-62f924252076&version=O16GA&source=O15OLSOMEX"
+          },
+          {
+            "name": "Windows (x86)",
+            "download": "https://c2rsetup.officeapps.live.com/c2r/download.aspx?productReleaseID=HomeBusinessRetail&platform=X86&language=en-US&TaxRegion=pr&correlationId=7b126833-942c-436e-8cdf-ad9d938e4923&token=faaf32f6-6d4e-437a-8829-62f924252076&version=O16GA&source=O15OLSOMEX"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "manufactuerName": "Microsoft",
+    "softwareName": "Office 2019",
+    "editions": [
+      {
+        "name": "Home & Student",
+        "platforms": [
+          {
+            "name": "Windows (x64)",
+            "download": "https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeStudent2019Retail&language=en-US&platform=x64"
+          },
+          {
+            "name": "Windows (x86)",
+            "download": "https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeStudent2019Retail&language=en-US&platform=x86"
+          }
+        ]
+      },
+      {
+        "name": "Home & Business",
+        "platforms": [
+          {
+            "name": "Windows (x64)",
+            "download": "https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeBusiness2019Retail&language=en-US&platform=x64"
+          },
+          {
+            "name": "Windows (x86)",
+            "download": "https://c2rsetup.officeapps.live.com/c2r/download.aspx?ProductreleaseID=HomeBusiness2019Retail&language=en-US&platform=x86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "manufactuerName": "Microsoft",
+    "softwareName": "Word 2013",
+    "editions": [
+      {
+        "name": "Retail",
+        "platforms": [
+          {
+            "name": "Windows",
+            "download": "http://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/en-US/WordRetail.img"
+          }
+        ]
+      }
+    ]
+  }
 ]
