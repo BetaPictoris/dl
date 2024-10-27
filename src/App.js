@@ -9,7 +9,13 @@ function App() {
         <a href="/">Haihaus Downloads</a>
 
         <nav>
-          <a href="#report">Report</a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/betapictoris/dl/issues/new?assignees=&labels=bad+link&projects=&template=report-link.md&title=Fix+%5BManufacturer%5D+%5BSoftware%5D+%5BEdition%5D+%5BPlatform%5D+link"
+          >
+            Report
+          </a>
           <a
             target="_blank"
             rel="noreferrer"
