@@ -123,5 +123,44 @@
         ]
       }
     ]
+  },
+  
+  {
+    "manufacturerName": "Microsoft",
+    "softwareName": "Windows Vista (SP1)",
+    "note": "via Internet Archive",
+    
+    "editions": [
+      {
+        "name": "Ultimate",
+        "platforms": [
+          {
+            "name": "x86 (exe)",
+            "download": "https://web.archive.org/web/20140812025005/https://drcdn.blob.core.windows.net/msoffice/pub/X14-63452/X14-63452.exe"
+          },
+          {
+            "name": "x86 (boot.wim)",
+            "download": "https://web.archive.org/web/20140812025005/http://msft-dnl.digitalrivercontent.net/msvista/pub/msshus/vista32/boot.wim"
+          },
+          {
+            "name": "x86 (install.wim)",
+            "download": "https://web.archive.org/web/20140812025005/http://msft-dnl.digitalrivercontent.net/msvista/pub/msshus/vista32/install.wim"
+          },
+          
+          {
+            "name": "x64 (exe)",
+            "download": "https://web.archive.org/web/20140812025005/https://drcdn.blob.core.windows.net/msoffice/pub/X14-63453/X14-63453.exe"
+          },
+          {
+            "name": "x64 (boot.wim)",
+            "download": "https://web.archive.org/web/20140812025005/http://msft-dnl.digitalrivercontent.net/msvista/pub/msshus/vista64/boot.wim"
+          },
+          {
+            "name": "x64 (install.wim)",
+            "download": "https://web.archive.org/web/20140812025005/http://msft-dnl.digitalrivercontent.net/msvista/pub/msshus/vista64/install.wim"
+          }
+        ]
+      }
+    ]
   }
 ]
